@@ -29,7 +29,7 @@ public class StoryScreen extends AppCompatActivity {
         restartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), InputScreen.class);
+                Intent i = new Intent(getApplicationContext(), TitleScreen.class);
                 startActivity(i);
             }
         });
